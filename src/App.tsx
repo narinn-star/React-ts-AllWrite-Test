@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Profile from "./components/Profile/Profile";
+import PEdit from "./components/PEdit/PEdit";
 //import Badge from "./components/Badge/Badge";
 // import Sidebar from "./templates/Sidebar";
 // import Header from "./templates/Header";
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         {/* <Profile /> */}
         <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/edit" element={<PEdit />} />
         {/* <Route path="/BadgeView" element={<Badge />} /> */}
       </Routes>
     </BrowserRouter>
